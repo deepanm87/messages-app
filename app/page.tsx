@@ -1,6 +1,6 @@
-import FeatureCard from "@/components/app/FeatureCard"
 import Header from "@/components/app/Header"
 import { Button } from "@/components/ui/button"
+import FeatureCard from "@/components/app/FeatureCard"
 import { SignedOut, SignInButton, SignUpButton } from "@clerk/nextjs"
 import { MessageCircle, Video, Shield, Zap, Users } from "lucide-react"
 import Footer from "@/components/app/Footer"
