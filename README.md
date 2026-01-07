@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a real time messaging app with video call functionality as well.
 
-## Getting Started
+This is the landing page.
 
-First, run the development server:
+<img width="2521" height="1215" alt="beam landing page" src="https://github.com/user-attachments/assets/7afcafed-7330-4ec5-af22-985484825281" />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+It supports authentication using Clerk API.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This is the dashboard page.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<img width="2531" height="1309" alt="dashboard page" src="https://github.com/user-attachments/assets/c56c092b-4c76-46ea-a648-7d50e3860a49" />
 
-## Learn More
+It allows users to search for existing users on the platform via their names or email addresses and can start a chat with them. All the chats are saved in the left side-bar and can be accessed anytime.
 
-To learn more about Next.js, take a look at the following resources:
+Video call page.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img width="2512" height="1285" alt="Video Call page" src="https://github.com/user-attachments/assets/228f7216-08ff-46bc-b011-933a7386d8da" />
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The video call generates a unique URL that can be shared with the person you are chatting to and can chat via video.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The back end uses Convex for user and chat storage and Stream to handle the video calls.
